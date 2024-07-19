@@ -1,0 +1,25 @@
+do{
+    opcion = prompt("¡Hola! Soy tu asistente. \nPor favor ingresa a continuación una opción: \n1.- Contactar con ejecutivo \n2.- Consultar saldo actual \n3.- Contratar bolsa de datos \n4.- Contratar bolsa de minutos \n5.- Salir");
+    switch (parseInt(opcion)) {
+        case 1:
+            alert("Estás siendo transferido");
+        break;
+        case 2:
+            alert("Se enviará tu saldo mediante SMS");
+        break;
+        case 3:
+            alert("Has contratado una bolsa de datos");
+        break;
+        case 4:
+            alert("Has contratado una bolsa de minutos");
+        break;
+        case 5:
+            alert("¡Hasta luego!");
+        break;
+        default:
+            alert("¡¡No es una opción válida!!");
+        break;
+    }
+} while(parseInt(opcion)!=5);
+
+// ^^^^^ MENÚ CON REPETICIÓN ^^^^^ \\
